@@ -1,0 +1,43 @@
+:root {
+    --black: #050402;
+    --white: #fafafa;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.div-title {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d0d0d;
+}
+
+.div-custom {
+   min-height: 800px;
+}
+
+.nav-custom {
+    background-color: var(--white);
+}
+
+.img-custom {
+    max-height: 300px;
+    border-radius: 50%;
+}
+
+.service-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.div-list {
+    min-height: 600px;
+}
