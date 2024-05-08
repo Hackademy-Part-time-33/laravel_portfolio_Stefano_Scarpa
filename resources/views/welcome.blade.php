@@ -6,6 +6,9 @@
   <title>Portfolio</title>
   {{-- CDN google icon --}}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,0,-25" />
+  {{-- CDN fontawsome --}}
+  <script src="https://kit.fontawesome.com/a3187457e5.js" crossorigin="anonymous"></script>
+
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   {{-- link css --}}
@@ -75,11 +78,11 @@
   {{-- seconda sezione --}}
   
   <div class="container">
-    <div class="row my-5">
-      <div class="col-12 col-md-6">
-        <img src="asset/IMG_5344.jpg" class="img-about float-end" alt="img-about">
+    <div class="row my-5 div-about justify-content-center align-items-center">
+      <div class="col-12 col-md-4">
+        <img src="asset/IMG_5344.jpg" class="img-about" alt="img-about">
       </div>
-      <div class="col-12 col-md-6 list_about">
+      <div class="col-12 col-md-8 list_about">
         <h2 class="mt-2 mb-5 fw-bold display-4 title-about">Chi sono</h2>
         <div class="d-flex">
           <p class="fw-lighter me-3">Nome:</p>
@@ -100,6 +103,98 @@
       </div>
     </div>
   </div>
+
+  {{-- terza sezione con le skills --}}
+
+  <div class="container div-skills">
+    <h2 class="title-skills fw-bold display-4 text-center m-5">Skills</h2>
+    <div class="row my-3 justify-content-center align-items-center">
+      <div class="col-12 col-md-3">
+          {{-- card --}}
+          <div class="card card-skills my-2">
+            <div class="card-body d-flex justify-content-center align-items-center flex-column">
+              <i class="fa-brands fa-html5 h1"></i>
+              <h5 class="card-title m-3 h3 fw-lighter">HTML5</h5>
+            </div>
+          </div>
+          {{-- fine card --}}
+      </div>
+      <div class="col-12 col-md-3">
+        {{-- card --}}
+        <div class="card card-skills my-2">
+          <div class="card-body d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-brands fa-css3-alt h1"></i>
+            <h5 class="card-title m-3 h3 fw-lighter">CSS</h5>
+          </div>
+        </div>
+        {{-- fine card --}}
+      </div>
+      <div class="col-12 col-md-3">
+        {{-- card --}}
+        <div class="card card-skills my-2">
+          <div class="card-body d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-brands fa-js h1"></i>
+            <h5 class="card-title m-3 h3 fw-lighter">JS</h5>
+          </div>
+        </div>
+        {{-- fine card --}}
+      </div>
+      <div class="col-12 col-md-3">
+        {{-- card --}}
+        <div class="card card-skills my-2">
+          <div class="card-body d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-brands fa-git-alt h1"></i>
+            <h5 class="card-title m-3 h3 fw-lighter">GIT</h5>
+          </div>
+        </div>
+        {{-- fine card --}}
+      </div>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-md-3">
+          {{-- card --}}
+          <div class="card card-skills my-2">
+            <div class="card-body d-flex justify-content-center align-items-center flex-column">
+              <i class="fa-brands fa-bootstrap h1"></i>
+              <h5 class="card-title m-3 h3 fw-lighter">BOOTSTRAP</h5>
+            </div>
+          </div>
+          {{-- fine card --}}
+      </div>
+      <div class="col-12 col-md-3">
+        {{-- card --}}
+        <div class="card card-skills my-2">
+          <div class="card-body d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-brands fa-laravel h1"></i>
+            <h5 class="card-title m-3 h3 fw-lighter">LARAVEL</h5>
+          </div>
+        </div>
+        {{-- fine card --}}
+      </div>
+      <div class="col-12 col-md-3">
+        {{-- card --}}
+        <div class="card card-skills my-2">
+          <div class="card-body d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-brands fa-php h1"></i>
+            <h5 class="card-title m-3 h3 fw-lighter">PHP</h5>
+          </div>
+        </div>
+        {{-- fine card --}}
+      </div>
+      <div class="col-12 col-md-3">
+        {{-- card --}}
+        <div class="card card-skills my-2">
+          <div class="card-body d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-brands fa-code h1"></i>
+            <h5 class="card-title m-3 h3 fw-lighter">UI/UX DESIGN</h5>
+          </div>
+        </div>
+        {{-- fine card --}}
+      </div>
+    </div>
+  </div>
+
+  {{-- fine terza sezione --}}
   
   
   {{-- footer --}}
