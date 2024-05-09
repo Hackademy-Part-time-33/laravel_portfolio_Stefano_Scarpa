@@ -185,7 +185,10 @@
         {{-- card --}}
         <div class="card card-skills my-2">
           <div class="card-body d-flex justify-content-center align-items-center flex-column">
-            <i class="fa-brands fa-code h1"></i>
+            <span class="material-symbols-outlined h1">
+              desktop_windows
+              </span>
+            {{-- <i class="fa-regular fa-desktop h1"></i> --}}
             <h5 class="card-title m-3 h3 fw-lighter">UI/UX DESIGN</h5>
           </div>
         </div>

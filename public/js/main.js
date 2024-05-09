@@ -4,6 +4,8 @@ hamburgerIcon.addEventListener("click", function() {
     document.body.classList.toggle('menu_open');
 });
 
+
+
 // onscroll della navbar
 
 let myNavbar = document.querySelector('#myNavbar');
