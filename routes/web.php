@@ -17,3 +17,11 @@ Route::get('/servizi-offerti', [PageController::class, 'serviziofferti']) -> nam
 // rotta dinamica
 
 Route::get('/dettaglio-servizio/{dettaglio}', [PageController::class, 'service']) -> name('service');
+
+// rotte form
+route::get('/contatti', [PageController::class, 'contact'])->name('contact');
+route::post('/send' , [PageController::class, 'send'])->name('send');
+
+
+route::get('/grazie' , [PageController::class, 'thankyou'])->name('thankyou');
+

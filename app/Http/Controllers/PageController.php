@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PageController extends Controller
 {
@@ -53,4 +55,32 @@ class PageController extends Controller
         abort(404);
     }
 
+    public function contact(){
+        return view('contact');
+    }
+
+    public function send(Request $request){
+        $request->validate([
+            'fullname' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required|numeric',
+            'message' => 'required|min:15',
+        ]);
+
+        $data = [
+            'nome' => $request->fullname,
+            'indirizzo' => $request->input('email'),
+            'telefono' => '+39' . $request->input('phone'),
+            'messaggio' => $request->message,
+        ];
+
+        //use Illuminate\Support\Facades\Mail;
+        Mail::to('admin@francesco.it')->send(new ContactMail($data));
+        //QUi invio i dati appena mappati alla classe ContactMail
+        return redirect()->route('thankyou');
+    }
+
+    public function thankyou(){
+        return view('thankyou');
+    }
 }
