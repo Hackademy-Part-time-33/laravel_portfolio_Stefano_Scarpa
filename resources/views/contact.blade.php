@@ -34,7 +34,7 @@
                     
                     <div class="mb-3">
                         <label class="form-label">Messaggio</label>
-                        <textarea class="form-control" type="text" name="message" style="height: 10rem;">{{old('message')}}</textarea>
+                        <textarea class="form-control" type="text" name="message" placeholder="Scrivi qui il tuo messaggio..." style="height: 10rem;">{{old('message')}}</textarea>
                     </div>
                     
                     

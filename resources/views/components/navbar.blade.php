@@ -19,6 +19,9 @@
           <li class="nav-item me-3">
             <a class="nav-link" href="{{route('serviziofferti')}}">Servizi Offerti</a>
           </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="{{route('contact')}}">Contattami</a>
+          </li>
         </ul>
       </div>
     </div>

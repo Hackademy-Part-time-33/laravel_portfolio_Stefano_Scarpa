@@ -42,7 +42,7 @@
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a class="nav-link-foot p-0" href="{{route('chisono')}}">Chi Sono</a></li>
             <li class="nav-item mb-2"><a class="nav-link-foot p-0" href="{{route('serviziofferti')}}">Servizi Offerti</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link-foot p-0">Pricing</a></li>
+            <li class="nav-item mb-2"><a class="nav-link-foot p-0" href="{{route('contact')}}">Contattami</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link-foot p-0">FAQs</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link-foot p-0">About</a></li>
           </ul>
@@ -53,7 +53,7 @@
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a class="nav-link-foot p-0" href="{{route('chisono')}}">Chi Sono</a></li>
             <li class="nav-item mb-2"><a class="nav-link-foot p-0" href="{{route('serviziofferti')}}">Servizi Offerti</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link-foot p-0">Pricing</a></li>
+            <li class="nav-item mb-2"><a class="nav-link-foot p-0" href="{{route('contact')}}">Contattami</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link-foot p-0">FAQs</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link-foot p-0">About</a></li>
           </ul>
@@ -64,7 +64,7 @@
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a class="nav-link-foot p-0" href="{{route('chisono')}}">Chi Sono</a></li>
             <li class="nav-item mb-2"><a class="nav-link-foot p-0" href="{{route('serviziofferti')}}">Servizi Offerti</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link-foot p-0">Pricing</a></li>
+            <li class="nav-item mb-2"><a class="nav-link-foot p-0" href="{{route('contact')}}">Contattami</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link-foot p-0">FAQs</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link-foot p-0">About</a></li>
           </ul>
