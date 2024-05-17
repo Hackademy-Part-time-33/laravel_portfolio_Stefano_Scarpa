@@ -6,9 +6,14 @@
     --color: rgb(234, 55, 31);
 }
 
+.bg-custom {
+    background-color: var(--color);
+}
+
 body {
     background-color: var(--black);
     color: var(--white);
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -139,8 +144,8 @@ body {
 
 .social {
     position: fixed;
-    margin-top: 30%;
-    margin-left: 94%;
+    margin-top: 25%;
+    margin-left: 95%;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -180,6 +185,10 @@ body {
 .img-custom {
     max-height: 300px;
     border-radius: 50%;
+}
+
+.img-sezione {
+    border-radius: 30px;
 }
 
 .expand_icon {
@@ -255,11 +264,11 @@ body {
 }
 
 .card-skills {
-    border-radius: 0px;
-    background-color: #0d0d0d;
+    border-radius: 30px;
+    background-color: #1a1a1a;
     color: var(--white);
     width: 100%;
-    height: 300px;
+    min-height: 300px;
     transition: all ease-in-out 0.3s;
 }
 
@@ -273,5 +282,37 @@ body {
     text-shadow: 20px 20px 0px rgba(234, 55, 31, 0.7);
 }
 
-.form_custom {
+.btn-custom {
+    background-color: #0d0d0d;
+    padding: 10px 40px;
+    color: var(--white);
+    border-radius: 30px;
+}
+
+.btn-custom:hover {
+    background-color: #282828;
+    padding: 10px 40px;
+    color: var(--white);
+    border-radius: 30px;
+}
+
+.btn-custom a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.bg-form {
+    background-color: #1a1a1a;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+@media (max-width: 575.98px) {
+    .social {
+        display: none;
+    }
+
+    .titolo-sm {
+        padding-top: 70px;
+    }
 }

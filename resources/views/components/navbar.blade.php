@@ -14,13 +14,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item me-3">
-            <a class="nav-link" href="{{route('chisono')}}">Chi Sono</a>
+            <a class="nav-link py-4 py-lg-2" href="{{route('chisono')}}">Chi Sono</a>
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" href="{{route('serviziofferti')}}">Servizi Offerti</a>
+            <a class="nav-link py-4 py-lg-2" href="{{route('serviziofferti')}}">Servizi Offerti</a>
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" href="{{route('contact')}}">Contattami</a>
+            <a class="nav-link py-4 py-lg-2" href="{{route('contact')}}">Contattami</a>
           </li>
         </ul>
       </div>

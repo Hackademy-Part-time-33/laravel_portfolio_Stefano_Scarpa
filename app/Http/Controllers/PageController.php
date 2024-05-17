@@ -75,7 +75,7 @@ class PageController extends Controller
         ];
 
         //use Illuminate\Support\Facades\Mail;
-        Mail::to('admin@stefano.it')->send(new ContactMail($data));
+        Mail::to('scarpastefano@hotmail.com')->send(new ContactMail($data));
         //QUi invio i dati appena mappati alla classe ContactMail
         return redirect()->route('thankyou');
     }

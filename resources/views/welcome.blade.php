@@ -1,11 +1,11 @@
 <x-main>
   
   <div class="social">
-    <span class="line"></span>
+    <span class="line rounded-5"></span>
     <ul>
       <li class="nav-item"><a class="nav-link" href="#">In</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Gh</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">ln</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Ln</a></li>
     </ul>
   </div> 
   
@@ -14,7 +14,7 @@
   <div class="container">
     <div class="row div-custom">
       <div class="col-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
-        <h1 class="display-4 fw-bold">Hi, I'm Stefano Scarpa<br> I'm a <span class="title-color">Web Developer</span></h1>
+        <h1 class="display-4 fw-bold titolo-sm">Hi, I'm Stefano Scarpa<br> I'm a <span class="title-color">Web Developer</span></h1>
         <p class="fw-lighter">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laborum excepturi nobis labore quos, deserunt est maxime 
         </p>
@@ -38,7 +38,7 @@
   <div class="container">
     <div class="row my-5 div-about justify-content-center align-items-center">
       <div class="col-12 col-md-4">
-        <img src="asset/IMG_5344.jpg" class="img-about" alt="img-about">
+        <img src="asset/IMG_5344.jpg" class="img-about img-sezione" alt="img-about">
       </div>
       <div class="col-12 col-md-8 list_about">
         <h2 class="mt-2 mb-5 fw-bold display-4 title-about">Chi sono</h2>

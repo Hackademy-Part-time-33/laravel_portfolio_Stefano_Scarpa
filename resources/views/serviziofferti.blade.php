@@ -18,8 +18,8 @@
           </li> --}}
           <li class="pt-5">
             <a class="text-decoration-none" href="{{route('service', ['dettaglio' => $element['uri']])}}">
-              <div class="card" style="width: 18rem;">
-                <img src="https://picsum.photos/200" class="card-img-top" alt="img">
+              <div class="card card-skills" style="width: 18rem;">
+                <img src="https://picsum.photos/200" class="card-img-top rounded-5" alt="img">
                 <div class="card-body">
                   <p class="card-text fw-semibold text-center">{{$element['name']}}</p>
                 </div>
